@@ -1,6 +1,6 @@
 def join_nested_strings(src)
   row_index = 0 
-  array
+  array =[]
   while row_index < src.length do
     element_index = 0 
     while element_index < src[row_index].length do 
@@ -11,5 +11,5 @@ def join_nested_strings(src)
     end
     row_index += 1
   end
-  string
+  array.join(" ")
 end
